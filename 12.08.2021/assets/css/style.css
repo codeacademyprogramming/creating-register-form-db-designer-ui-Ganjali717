@@ -1,0 +1,63 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.register-title{
+    padding: 20px;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+input{
+border: none;
+border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+padding: 10px 0;
+}
+
+.register-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.registration-terms{
+  display: inline-block;
+}
+
+.first-btn{
+    background-color: rgb(61, 112, 56);
+    border-radius: 15%;
+    width: 150px;
+    text-align: center;
+}
+
+.first-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.second-btn{
+    border: none;
+    background-color: transparent;
+}
